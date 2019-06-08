@@ -1,8 +1,8 @@
 # newborn
 
-## Download NodeJS from
+## Download NodeJS and NPM
 ```
-[NodeJS & Npm Install](https://nodejs.org/en/)
+Download NodeJS and Npm [NodeJS & Npm Install](https://nodejs.org/en/)
 ```
 
 ### Install package
