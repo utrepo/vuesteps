@@ -1,17 +1,12 @@
 <template>
   <div class="sampleDiv">
-    <span>Rendered data value: {{message}}</span>
+    <span>Vue Templates</span>
   </div>
 </template>
 
 <script>
   export default {
-    name: "dataRendering",
-    data() {
-      return {
-        message: "Hello Vue"
-      };
-    }
+    name: "vueTemplate"
   };
 </script>
 
