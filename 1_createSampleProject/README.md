@@ -1,29 +1,31 @@
 # newborn
 
-## Project setup
+## Download NodeJS from
 ```
-npm install
-```
-
-### Compiles and hot-reloads for development
-```
-npm run serve
+[https://nodejs.org/en/]
 ```
 
-### Compiles and minifies for production
+### Install package
+
+### Check versions
 ```
-npm run build
+node --version
+```
+```
+npm --version
 ```
 
-### Run your tests
+### Install latest stable vue
 ```
-npm run test
-```
-
-### Lints and fixes files
-```
-npm run lint
+npm install -g vue
 ```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+### Install vue cli
+```
+npm install -g @vue/cli
+```
+
+### Create Project
+```
+vue create newborn
+```
