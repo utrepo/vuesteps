@@ -1,11 +1,9 @@
 # newborn
 
-This site was built using [GitHub Pages](https://pages.github.com/).
 
 ## Download NodeJS and NPM
-```
 Download NodeJS and Npm [NodeJS & Npm Install](https://nodejs.org/en/)
-```
+
 
 ### Install package
 
