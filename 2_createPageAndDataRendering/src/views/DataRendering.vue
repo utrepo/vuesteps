@@ -1,5 +1,5 @@
 <template>
-  <div class="Home">
+  <div class="sampleDiv">
     {{message}}
   </div>
 </template>
@@ -14,3 +14,9 @@
     }
   };
 </script>
+
+<style>
+  .sampleDiv {
+    float: left;
+  }
+</style>
