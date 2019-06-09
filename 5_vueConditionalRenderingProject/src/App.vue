@@ -1,7 +1,8 @@
 <template>
   <div id="app">
     <div id="nav">
-      <router-link to="/"> ConditionalRenderingVIF</router-link>
+      <router-link to="/"> ConditionalRenderingVIF</router-link>|
+      <router-link to="/basicloop"> BasicLoop</router-link>
     </div>
     <router-view />
   </div>
