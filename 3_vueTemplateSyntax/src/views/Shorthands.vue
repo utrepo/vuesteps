@@ -2,21 +2,21 @@
   <div class="sampleDiv">
     <span>Rendered data value: {{message}}</span>
     <br /><br />
-    <button v-on:click="clickMethodChange">Change rendered value</button>
+    <button @click="clickMethodChange">Change rendered value</button>
     <br /><br />
-    <button v-on:click="clickMethodReset">Reset rendered value</button>
+    <button @click="clickMethodReset">Reset rendered value</button>
     <br /><br />
     <input value="Without Binding"></input>
     <br /><br />
-    <input v-bind:value="withBinding"></input>
+    <input :value="withBinding"></input>
     <br /><br />
-    <input v-bind:value="withBinding" v-on:keyup.enter="enterEvent"></input>
+    <input :value="withBinding" v-on:keyup.enter="enterEvent"></input>
   </div>
 </template>
 
 <script>
   export default {
-    name: "modifiers",
+    name: "shorthands",
     data() {
       return {
         message: "Hello Vue",
