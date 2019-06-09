@@ -2,6 +2,7 @@ import Vue from 'vue';
 import Router from 'vue-router';
 import DataRendering from './views/DataRendering.vue';
 import VueSyntax from './views/VueSyntax.vue';
+import Methods from './views/Methods.vue';
 
 Vue.use(Router);
 
@@ -16,6 +17,11 @@ export default new Router({
 			path: '/',
 			name: 'vuesyntax',
 			component: VueSyntax,
+		},
+		{
+			path: '/methods',
+			name: 'methods',
+			component: Methods,
 		},
 	],
 });
