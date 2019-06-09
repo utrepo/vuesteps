@@ -2,7 +2,7 @@
   <div id="app">
     <div id="nav">
       <router-link to="/"> Computed</router-link>|
-      <router-link to="/watcher"> Watcher</router-link>
+      <router-link to="/watch"> Watch</router-link>
     </div>
     <router-view />
   </div>

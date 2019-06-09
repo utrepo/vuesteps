@@ -8,7 +8,7 @@
 
 <script>
   export default {
-    name: "watcher",
+    name: "watch",
     data() {
       return {
         name: "Your name",
