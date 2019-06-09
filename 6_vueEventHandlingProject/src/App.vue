@@ -1,7 +1,8 @@
 <template>
   <div id="app">
     <div id="nav">
-      <router-link to="/"> EventHandling</router-link>
+      <router-link to="/"> EventHandling</router-link>|
+      <router-link to="/modelbinding"> ModelBinding</router-link>
     </div>
     <router-view />
   </div>
