@@ -3,7 +3,8 @@
     <div id="nav">
       <router-link to="/">Questionnarie</router-link>|
       <router-link to="/questionnarieprops">Questionnarie Props</router-link>|
-      <router-link to="/questionnariepropsevents">Questionnarie Events</router-link>
+      <router-link to="/questionnariepropsevents">Questionnarie Events</router-link>|
+      <router-link to="/questionnarieslots">Questionnarie Slots</router-link>
     </div>
     <router-view />
   </div>
