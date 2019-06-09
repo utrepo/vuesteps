@@ -8,12 +8,15 @@ import QuestionnariePropsEvents from './views/QuestionnariePropsEvents.vue'
 import QuestionPropsEvents from './components/QuestionPropsEvents.vue'
 import QuestionSlots from './components/QuestionSlots.vue'
 import QuestionnarieSlots from './views/QuestionnarieSlots.vue'
+import QuestionMixin from './components/QuestionMixin.vue'
+import QuestionnarieMixin from './views/QuestionnarieMixin.vue'
 
 Vue.use(Router)
 Vue.component('question', Question)
 Vue.component('question-props', QuestionProps)
 Vue.component('question-props-events', QuestionPropsEvents)
 Vue.component('question-slots', QuestionSlots)
+Vue.component('question-mixin', QuestionMixin)
 
 export default new Router({
   routes: [
@@ -36,6 +39,11 @@ export default new Router({
       path: '/questionnarieslots',
       name: 'questionnarieSlots',
       component: QuestionnarieSlots
+    },
+    {
+      path: '/questionnariemixin',
+      name: 'questionnarieMixin',
+      component: QuestionnarieMixin
     }
   ]
 })
