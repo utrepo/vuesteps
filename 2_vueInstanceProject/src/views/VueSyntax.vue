@@ -1,6 +1,6 @@
 <template>
   <div class="sampleDiv">
-    <span>Vue Templates</span>
+    <span>Vue Syntax</span>
   </div>
 </template>
 
