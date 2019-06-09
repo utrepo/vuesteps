@@ -3,6 +3,7 @@ import Router from 'vue-router';
 import DataRendering from './views/DataRendering.vue';
 import VueSyntax from './views/VueSyntax.vue';
 import Methods from './views/Methods.vue';
+import Hooks from './views/Hooks.vue';
 
 Vue.use(Router);
 
@@ -22,6 +23,11 @@ export default new Router({
 			path: '/methods',
 			name: 'methods',
 			component: Methods,
+		},
+		{
+			path: '/hooks',
+			name: 'hooks',
+			component: Hooks,
 		},
 	],
 });

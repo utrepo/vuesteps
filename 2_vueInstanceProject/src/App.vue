@@ -3,7 +3,8 @@
     <div id="nav">
       <router-link to="/"> Vue Syntax</router-link>|
       <router-link to="/datarendering">Data Rendering</router-link>|
-      <router-link to="/methods">Methods</router-link>
+      <router-link to="/methods">Methods</router-link>|
+      <router-link to="/hooks">Hooks</router-link>
     </div>
     <router-view />
   </div>
